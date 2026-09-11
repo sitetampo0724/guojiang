@@ -2,17 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 离线蒙特卡洛自检 —— 不需要模拟器即可验证策略正确性与耗时。
-
-用法:
-    python selftest.py --problem 3 --trials 200
-    python selftest.py --problem 4 --trials 200
-    python selftest.py --coverage 20000     # 仅验证普查几何覆盖(问题3/4)
-
-自检内容:
-    1. 用与模拟器一致的物理规则(示向度误差、有效半径 1000-1500m、
-       近距离阈值、清除半径、定向覆盖等)模拟干扰源;
-    2. 跑完整策略(普查 -> 最近邻 -> 逼近定位 -> 清除);
-    3. 统计: 完全清除率、平均/最差虚拟总时间、平均每源时间、普查覆盖检查。
 """
 
 import argparse
@@ -37,7 +26,6 @@ class SimJammer:
 
 
 class FakeClient:
-    """与真实 Client 接口一致(enter/exit/measure/clear, pos/virtual_time)。"""
 
     def __init__(self, jammers, rng):
         self.jammers = jammers
@@ -154,8 +142,6 @@ def run_trial(problem, rng, verbose_fail=False):
 
 
 def check_coverage(problem, samples, seed=1):
-    """普查几何覆盖: 对随机(干扰源位置, 定向方向), 是否必有普查点
-    在 1000m 内(最小接收半径)且位于有效覆盖角度范围内。"""
     rng = random.Random(seed)
     pts = R.census_points(problem)
     bad = 0
@@ -176,7 +162,6 @@ def check_coverage(problem, samples, seed=1):
 
 
 def max_nearest_distance(problem, samples=200000, seed=7):
-    """数值验证: 圆域内任一点到最近普查点的最大距离(应 < 1000m)。"""
     rng = random.Random(seed)
     pts = R.census_points(problem)
     worst = 0.0
