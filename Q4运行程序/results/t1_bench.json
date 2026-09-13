@@ -1,0 +1,95 @@
+{
+  "ok": true,
+  "groups": [
+    {
+      "scenario": "mixed",
+      "cases": 1,
+      "success": 1,
+      "avg_virtual_time_s": 6597.507187576259,
+      "avg_per_source_s": 471.2505133983042,
+      "avg_travel_m": 24412.53593788129,
+      "avg_travel_time_s": 4882.507187576258,
+      "avg_measure_count": 279.0,
+      "avg_measurement_time_s": 1395.0,
+      "avg_switch_count": 235.0,
+      "avg_switching_time_s": 235.0,
+      "avg_clear_attempts": 19.0,
+      "avg_clearance_time_s": 85.0,
+      "avg_action_count": 298.0,
+      "max_real_runtime_s": 1.6409291250020033
+    }
+  ],
+  "overall": {
+    "cases": 1,
+    "success": 1,
+    "avg_virtual_time_s": 6597.507187576259,
+    "avg_per_source_s": 471.2505133983042,
+    "avg_travel_m": 24412.53593788129,
+    "avg_measure_count": 279.0,
+    "avg_switch_count": 235.0,
+    "avg_clear_attempts": 19.0,
+    "max_real_runtime_s": 1.6409291250020033
+  },
+  "rows": [
+    {
+      "cleared_count": 14,
+      "cleared_channels": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        18,
+        20
+      ],
+      "complete_certificate": true,
+      "scanned_stations": [],
+      "area_coverage_complete": true,
+      "unresolved_coverage_cells": 0,
+      "pending_channels": [],
+      "virtual_time_s": 6597.507187576259,
+      "average_time_per_cleared_s": 471.2505133983042,
+      "travel_m": 24412.53593788129,
+      "travel_time_s": 4882.507187576258,
+      "measure_count": 279,
+      "measurement_time_s": 1395,
+      "switch_count": 235,
+      "switching_time_s": 235,
+      "clear_attempts": 19,
+      "clearance_time_s": 85,
+      "action_count": 298,
+      "phase_time_s": {
+        "search": 4304.419569892425,
+        "localize": 2293.087617683833
+      },
+      "max_clock_error_s": 4.576259016175754e-06,
+      "problem": 4,
+      "planner": "v2",
+      "options": {
+        "mode": "v2"
+      },
+      "status": "complete",
+      "error": null,
+      "exit_acknowledged": true,
+      "unresolved_request": false,
+      "real_runtime_s": 1.6409291250020033,
+      "fallback_count": 3,
+      "certificate_method": "offline-certified ring cover",
+      "planned_station_count": 25,
+      "scenario": "mixed",
+      "seed": 2026092100,
+      "source_count": 14,
+      "cleared_true_count": 14,
+      "ok": true
+    }
+  ],
+  "tag": "t1",
+  "wall_s": 1.6415457910043187
+}

@@ -1,0 +1,2 @@
+{"scenario": "boundary", "seed": 2026092903, "sources": 10, "cleared": 10, "status": "complete", "virtual_s": 3660.96, "travel_m": 14384.8, "travel_s": 2876.96, "measure_s": 620, "measure_n": 124, "switch_s": 114, "switch_n": 114, "clear_s": 50, "clear_n": 10, "actions": 134, "census_points": 7, "cover_complete": true, "unresolved_cells": 0}
+{"overall": {"virtual_s": 3660.96, "travel_s": 2876.96, "measure_s": 620.0, "switch_s": 114.0, "clear_s": 50.0, "travel_share": 0.786, "census_points_avg": 7.0}, "by_scenario": {"boundary": 3661.0}}

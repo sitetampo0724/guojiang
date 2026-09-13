@@ -1,0 +1,251 @@
+{
+  "groups": [
+    {
+      "group": "q3 uniform",
+      "cases": 6,
+      "success": 6,
+      "success_rate": 1.0,
+      "avg_virtual_time_s": 2872.1944893333334,
+      "avg_per_source_s": 230.15599849679487,
+      "rows": [
+        {
+          "problem": 3,
+          "scenario": "uniform",
+          "seed": 2026091900,
+          "source_count": 10,
+          "cleared_count": 10,
+          "virtual_time_s": 2857.750298,
+          "per_source_s": 285.77502979999997,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "uniform",
+          "seed": 2026091901,
+          "source_count": 13,
+          "cleared_count": 13,
+          "virtual_time_s": 3032.23376,
+          "per_source_s": 233.24875076923078,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "uniform",
+          "seed": 2026091902,
+          "source_count": 16,
+          "cleared_count": 16,
+          "virtual_time_s": 2807.650108,
+          "per_source_s": 175.47813175,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "uniform",
+          "seed": 2026091903,
+          "source_count": 10,
+          "cleared_count": 10,
+          "virtual_time_s": 2963.956662,
+          "per_source_s": 296.3956662,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "uniform",
+          "seed": 2026091904,
+          "source_count": 13,
+          "cleared_count": 13,
+          "virtual_time_s": 2899.166796,
+          "per_source_s": 223.01283046153847,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "uniform",
+          "seed": 2026091905,
+          "source_count": 16,
+          "cleared_count": 16,
+          "virtual_time_s": 2672.409312,
+          "per_source_s": 167.025582,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "group": "q3 boundary",
+      "cases": 6,
+      "success": 6,
+      "success_rate": 1.0,
+      "avg_virtual_time_s": 3700.786353833333,
+      "avg_per_source_s": 293.7835111554487,
+      "rows": [
+        {
+          "problem": 3,
+          "scenario": "boundary",
+          "seed": 2026092900,
+          "source_count": 10,
+          "cleared_count": 10,
+          "virtual_time_s": 3248.006943,
+          "per_source_s": 324.8006943,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "boundary",
+          "seed": 2026092901,
+          "source_count": 13,
+          "cleared_count": 13,
+          "virtual_time_s": 3852.820558,
+          "per_source_s": 296.37081215384615,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "boundary",
+          "seed": 2026092902,
+          "source_count": 16,
+          "cleared_count": 16,
+          "virtual_time_s": 3857.68909,
+          "per_source_s": 241.105568125,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "boundary",
+          "seed": 2026092903,
+          "source_count": 10,
+          "cleared_count": 10,
+          "virtual_time_s": 3836.364172,
+          "per_source_s": 383.6364172,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "boundary",
+          "seed": 2026092904,
+          "source_count": 13,
+          "cleared_count": 13,
+          "virtual_time_s": 3721.309984,
+          "per_source_s": 286.25461415384615,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "boundary",
+          "seed": 2026092905,
+          "source_count": 16,
+          "cleared_count": 16,
+          "virtual_time_s": 3688.527376,
+          "per_source_s": 230.532961,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "group": "q3 cluster",
+      "cases": 6,
+      "success": 6,
+      "success_rate": 1.0,
+      "avg_virtual_time_s": 1544.5629284999998,
+      "avg_per_source_s": 132.3805009144231,
+      "rows": [
+        {
+          "problem": 3,
+          "scenario": "cluster",
+          "seed": 2026093900,
+          "source_count": 10,
+          "cleared_count": 10,
+          "virtual_time_s": 2075.354254,
+          "per_source_s": 207.53542539999998,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "cluster",
+          "seed": 2026093901,
+          "source_count": 13,
+          "cleared_count": 13,
+          "virtual_time_s": 2024.545055,
+          "per_source_s": 155.734235,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "cluster",
+          "seed": 2026093902,
+          "source_count": 16,
+          "cleared_count": 16,
+          "virtual_time_s": 520.545392,
+          "per_source_s": 32.534087,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "cluster",
+          "seed": 2026093903,
+          "source_count": 10,
+          "cleared_count": 10,
+          "virtual_time_s": 2086.903895,
+          "per_source_s": 208.69038949999998,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "cluster",
+          "seed": 2026093904,
+          "source_count": 13,
+          "cleared_count": 13,
+          "virtual_time_s": 2065.235997,
+          "per_source_s": 158.8643074615385,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        },
+        {
+          "problem": 3,
+          "scenario": "cluster",
+          "seed": 2026093905,
+          "source_count": 16,
+          "cleared_count": 16,
+          "virtual_time_s": 494.792978,
+          "per_source_s": 30.924561125,
+          "status": "complete",
+          "error": null,
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "ok": true
+}

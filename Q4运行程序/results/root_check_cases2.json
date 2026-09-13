@@ -1,0 +1,221 @@
+{
+ "groups": [
+  {
+   "group": "q4 mixed",
+   "cases": 2,
+   "success": 2,
+   "success_rate": 1.0,
+   "avg_virtual_time_s": 6461.4187805,
+   "avg_per_source_s": 556.6131632071429,
+   "rows": [
+    {
+     "problem": 4,
+     "scenario": "mixed",
+     "seed": 2026092100,
+     "source_count": 14,
+     "cleared_count": 14,
+     "virtual_time_s": 6267.010039,
+     "per_source_s": 447.6435742142857,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    },
+    {
+     "problem": 4,
+     "scenario": "mixed",
+     "seed": 2026092101,
+     "source_count": 10,
+     "cleared_count": 10,
+     "virtual_time_s": 6655.827522,
+     "per_source_s": 665.5827522,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "group": "q4 omni",
+   "cases": 2,
+   "success": 2,
+   "success_rate": 1.0,
+   "avg_virtual_time_s": 6375.6786075,
+   "avg_per_source_s": 481.48528509166664,
+   "rows": [
+    {
+     "problem": 4,
+     "scenario": "omni",
+     "seed": 2026093100,
+     "source_count": 12,
+     "cleared_count": 12,
+     "virtual_time_s": 6772.805351,
+     "per_source_s": 564.4004459166666,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    },
+    {
+     "problem": 4,
+     "scenario": "omni",
+     "seed": 2026093101,
+     "source_count": 15,
+     "cleared_count": 15,
+     "virtual_time_s": 5978.551864,
+     "per_source_s": 398.57012426666665,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "group": "q4 all_directional",
+   "cases": 2,
+   "success": 2,
+   "success_rate": 1.0,
+   "avg_virtual_time_s": 7302.800926,
+   "avg_per_source_s": 585.7901691794872,
+   "rows": [
+    {
+     "problem": 4,
+     "scenario": "all_directional",
+     "seed": 2026094100,
+     "source_count": 13,
+     "cleared_count": 13,
+     "virtual_time_s": 7106.291292,
+     "per_source_s": 546.6377916923077,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    },
+    {
+     "problem": 4,
+     "scenario": "all_directional",
+     "seed": 2026094101,
+     "source_count": 12,
+     "cleared_count": 12,
+     "virtual_time_s": 7499.31056,
+     "per_source_s": 624.9425466666667,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "group": "q4 outward",
+   "cases": 2,
+   "success": 2,
+   "success_rate": 1.0,
+   "avg_virtual_time_s": 7988.488154000001,
+   "avg_per_source_s": 552.2237928976191,
+   "rows": [
+    {
+     "problem": 4,
+     "scenario": "outward",
+     "seed": 2026095100,
+     "source_count": 14,
+     "cleared_count": 14,
+     "virtual_time_s": 8256.324705,
+     "per_source_s": 589.7374789285715,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    },
+    {
+     "problem": 4,
+     "scenario": "outward",
+     "seed": 2026095101,
+     "source_count": 15,
+     "cleared_count": 15,
+     "virtual_time_s": 7720.651603,
+     "per_source_s": 514.7101068666667,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "group": "q4 tangent",
+   "cases": 2,
+   "success": 2,
+   "success_rate": 1.0,
+   "avg_virtual_time_s": 6338.850944,
+   "avg_per_source_s": 422.59006293333334,
+   "rows": [
+    {
+     "problem": 4,
+     "scenario": "tangent",
+     "seed": 2026096100,
+     "source_count": 15,
+     "cleared_count": 15,
+     "virtual_time_s": 6443.832875,
+     "per_source_s": 429.58885833333335,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    },
+    {
+     "problem": 4,
+     "scenario": "tangent",
+     "seed": 2026096101,
+     "source_count": 15,
+     "cleared_count": 15,
+     "virtual_time_s": 6233.869013,
+     "per_source_s": 415.59126753333334,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "group": "q4 cluster",
+   "cases": 2,
+   "success": 2,
+   "success_rate": 1.0,
+   "avg_virtual_time_s": 6590.918109,
+   "avg_per_source_s": 469.4940091692307,
+   "rows": [
+    {
+     "problem": 4,
+     "scenario": "cluster",
+     "seed": 2026097100,
+     "source_count": 15,
+     "cleared_count": 15,
+     "virtual_time_s": 7312.439847,
+     "per_source_s": 487.49598979999996,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    },
+    {
+     "problem": 4,
+     "scenario": "cluster",
+     "seed": 2026097101,
+     "source_count": 13,
+     "cleared_count": 13,
+     "virtual_time_s": 5869.396371,
+     "per_source_s": 451.4920285384615,
+     "status": "complete",
+     "error": null,
+     "fallback_count": 0,
+     "ok": true
+    }
+   ]
+  }
+ ],
+ "ok": true
+}
